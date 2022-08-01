@@ -21,7 +21,7 @@ final class HomeController: UIViewController {
     private func setupView() {
         guard let factory = factory else { return }
         
-        let componentS1 = factory.makeComponenteS1()
+        let componentS1 = factory.makeComponentS1()
         let title = componentS1.title
         let view = componentS1.makeView()
         

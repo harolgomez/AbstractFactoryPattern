@@ -9,7 +9,7 @@ import UIKit
 
 final class HomeStandardFactory: HomeFactory {
     
-    func makeComponenteS1() -> ComponentS1 {
+    func makeComponentS1() -> ComponentS1 {
         return ComponentS1StandardView()
     }
 }

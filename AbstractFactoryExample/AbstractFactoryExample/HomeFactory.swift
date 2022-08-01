@@ -13,5 +13,5 @@ protocol ComponentS1 {
 }
 
 protocol HomeFactory {
-    func makeComponenteS1() -> ComponentS1
+    func makeComponentS1() -> ComponentS1
 }
